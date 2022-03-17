@@ -10,12 +10,12 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/devops-ws/learn-pipeline-java</url>
+            <id>nexus</id>
+            <url>http://222.44.91.49:8707/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/devops-ws/learn-pipeline-java</url>
+            <id>nexus</id>
+            <url>http://222.44.91.49:8707/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
 
